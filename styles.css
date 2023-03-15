@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;
+    background-color: hotpink;
 }
 .container {
     background-color:aquamarine;
@@ -42,8 +42,6 @@ body {
     background-color: chartreuse;
     border-top: black 10px solid;
     display: grid;
-    /* flex-direction: column; */
-    /* height: auto; */
 }
 #area-7 {
     background-color:white;
