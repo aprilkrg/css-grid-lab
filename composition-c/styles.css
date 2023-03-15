@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hotpink;
+}
+.container {
+    background-color:aquamarine;
+    display: grid;
+    height: 100vh; 
+    width: 100vw;
+    grid-template-rows: 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1.3fr;
+}
+#area-1 {
+    background-color: red;
+    border-right: black 10px solid;
+    border-bottom: black 10px solid;
+}
+#area-2 {
+    background-color: whitesmoke;
+    border-bottom: black 10px solid;
+}
+#area-3 {
+    background-color: whitesmoke;
+    border-right: black 10px solid;
+    border-bottom: black 10px solid;
+}
+#area-4 {
+    background-color: whitesmoke;
+    border-bottom: black 10px solid;
+}
+#area-5 {
+    background-color: hotpink;
+    border-right: black 10px solid;
+    display: flex;
+}
+#area-6 {
+    background-color: yellow;
+    border-right: black 10px solid;
+    width: 20%;
+}
+#area-7 {
+    background-color: white;
+    width: 80%;
+}
+#area-8 {
+    background-color: purple;
+    display: flex;
+}
+#area-9 {
+    width:50%;
+}
+#area-10 {
+    background-color: blue;
+    border-bottom: black 10px solid;
+    height:90%;
+}
+#area-11 {
+    background-color: white;
+    height:10%;
+}
+#area-12 {
+    background-color: white;
+    border-left: black 10px solid;
+    width: 50%;
+}
